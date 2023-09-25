@@ -5,7 +5,7 @@ key: [NestJS, Node, TypeScript, 物件導向設計原則, Design Pattern]
 tags: [NestJS, Node, TypeScript, 物件導向設計原則, Design Pattern]
 ---
 
-# 👩‍💻 將 Service 抽象化
+# 🐔 將 Service 抽象化
 
 ## 關於抽象化
 

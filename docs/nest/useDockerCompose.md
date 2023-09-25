@@ -5,7 +5,7 @@ key: [NestJS, Node, TypeScript, Docker, Docker Compose, Postgresql]
 tags: [NestJS, Node, TypeScript, Docker, Docker Compose, Postgresql]
 ---
 
-# 👩‍💻 NestJS 的 Docker Compose
+# 🐔 NestJS 的 Docker Compose
 
 ## 環境
 
@@ -16,7 +16,7 @@ tags: [NestJS, Node, TypeScript, Docker, Docker Compose, Postgresql]
 
 ### 撰寫 dockerfile
 
-> 參考 [👩‍💻 NestJS 的 dockerfile](https://blog.lychicken.com/docs/daylily/nestDaylily/writeDockerfile) 撰寫 dockerfile
+> 參考 [🐔 NestJS 的 dockerfile](https://blog.lychicken.com/docs/daylily/nestDaylily/writeDockerfile) 撰寫 dockerfile
 
 ### 撰寫 docker-compose.yml
 

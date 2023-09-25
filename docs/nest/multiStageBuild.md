@@ -5,7 +5,7 @@ key: [NestJS, Node, TypeScript, Docker, Dockerfile]
 tags: [NestJS, Node, TypeScript, Docker, Dockerfile]
 ---
 
-# 👩‍💻 Multi-stage Build
+# 🐔 Multi-stage Build
 
 ## 為何要使用 Multi-stage Build
 

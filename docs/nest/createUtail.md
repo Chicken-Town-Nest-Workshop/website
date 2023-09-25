@@ -5,7 +5,7 @@ key: [NestJS, Node, TypeScript]
 tags: [NestJS, Node, TypeScript]
 ---
 
-# 👩‍💻 全域工具包 UUID
+# 🐔 全域工具包 UUID
 
 ## 關於全域工具包 UUID
 

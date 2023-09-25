@@ -5,7 +5,7 @@ key: [NestJS, Node, TypeScript, Swagger]
 tags: [NestJS, Node, TypeScript, Swagger]
 ---
 
-# 👩‍💻 安裝 Swagger
+# 🐔 安裝 Swagger
 
 ## 步驟
 

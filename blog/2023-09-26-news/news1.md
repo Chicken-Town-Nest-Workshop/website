@@ -6,7 +6,7 @@ key: [生日, 小雞鎮, Nest js]
 tags: [小雞鎮新聞, 新居民]
 ---
 
-![封面](./townNews.png)
+![封面](./book.png)
 
 > 圖書館館長上任啦!
 

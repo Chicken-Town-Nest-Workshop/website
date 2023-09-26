@@ -1,11 +1,15 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import { Link } from 'react-router-dom';
+import { url } from 'inspector';
+
 
 type FeatureItem = {
   title: string;
   Svg: any;
   description: JSX.Element;
+  url: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -17,6 +21,7 @@ const FeatureList: FeatureItem[] = [
        小雞鎮是一個 Nest JS 的工作坊，不定期上架 Nest 的技術文章
       </>
     ),
+    url: "/docs/category/-nest-觀念"
   },
   {
     title: '造鎮計畫',
@@ -26,6 +31,7 @@ const FeatureList: FeatureItem[] = [
        每一個模組即為一家店，期許未來可以過大小鎮的版圖
       </>
     ),
+    url: "/docs/intro"
   },
   {
     title: '小鎮新聞',
@@ -35,14 +41,17 @@ const FeatureList: FeatureItem[] = [
         每當小鎮有重大消息時，就會透過新聞發布
       </>
     ),
+    url: "/blog"
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, url}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
+      <Link to={url}>
         <img src={Svg} alt="" />
+      </Link>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchicken_city=self.webpackChunkchicken_city||[]).push([[8629],{8629:(c,e,k)=>{k.r(e)}}]);

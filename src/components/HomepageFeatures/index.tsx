@@ -1,9 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import { Link } from 'react-router-dom';
-import { url } from 'inspector';
-
 
 type FeatureItem = {
   title: string;
@@ -49,9 +46,9 @@ function Feature({title, Svg, description, url}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-      <Link to={url}>
+      <a href={url}>
         <img src={Svg} alt="" />
-      </Link>
+      </a>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

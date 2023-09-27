@@ -26,7 +26,7 @@ tags: [小雞鎮新聞, 技術新聞]
 - code > download Zip
 - 解壓縮
 
-### 使用方式
+### 模板使用方式
 
 - 修改專案名稱
 - 於 `package.js` 修改 `name`

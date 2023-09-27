@@ -2,7 +2,7 @@
 slug: 副鎮長上任
 title: 副鎮長上任啦!
 authors: [Lianddy]
-key: [生日, 小雞鎮, Nest js]
+key: [小雞鎮, Nest js]
 tags: [小雞鎮新聞, 新居民]
 ---
 

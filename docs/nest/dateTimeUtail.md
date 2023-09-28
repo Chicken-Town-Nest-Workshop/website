@@ -13,7 +13,7 @@ tags: [NestJS, Node, TypeScript]
 
 1. 為了做測試隔離
 2. 會有好幾個模組需要使用到這個功能
-3. 在雲端服務中，直接取 localtime 會取到伺服器當地的時間，造成時間不準確的問題
+3. 在雲端服務中，直接取 local time 會取到伺服器當地的時間，造成時間不準確的問題
 
 ## 製作全域工具包 TimeZone
 
@@ -52,7 +52,7 @@ export interface ClockServiceInterface{
     /**
      * 取得 +8 時間
      */
-    getTime():Date;
+    getTime():string;
 }
 ```
 
@@ -94,11 +94,11 @@ export class ClockService implements ClockServiceInterface {
   /**
    * 取得 +8 時間
    */
-  getTime(): Date {
+  getTime(): string {
     const offset = 8 * 60; // 8小時的分鐘數
     const utcTime = this.getTimeZone().getTime(); // 使用 getTimeZone() 取得標準時間
     const localTime = new Date(utcTime + offset * 60 * 1000);
-    return localTime;
+    return localTime.toISOString();
   }
 }
 ```
@@ -165,3 +165,10 @@ import { ClockModule } from './clock/clock.module';
 })
 export class AppModule {}
 ```
+
+### 注意事項
+
+:::caution
+如果直接將 `Date` 物件，透過 controller 帶給客戶端，那麼客戶端拿到的會是`格林威治時間`，
+所以必須將時間轉換成`ISO string`或是`time stamp`
+:::

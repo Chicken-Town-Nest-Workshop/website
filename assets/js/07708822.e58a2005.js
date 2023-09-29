@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchicken_city=self.webpackChunkchicken_city||[]).push([[3098],{3747:e=>{e.exports=JSON.parse('{"label":"typeORM","permalink":"/docs/tags/type-orm","allTagsPath":"/docs/tags","count":1,"items":[{"id":"nest/useTypeorm","title":"\ud83d\udc14 \u4f7f\u7528 TypeORM","description":"\u4f7f\u7528 TypeORM","permalink":"/docs/nest/useTypeorm"}]}')}}]);

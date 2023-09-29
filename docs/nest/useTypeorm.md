@@ -347,3 +347,7 @@ pnpm run typeorm:run-migrations
 ```
 
 > 此時就能看到資料庫長出表格了
+
+## REF
+
+[副鎮長-梁迪哥 教學](https://hackmd.io/@JgGTFI_BRjyUv6YuG1bmUQ/B1ZKISX_n/%2FFwXhSn6rTXG4BsAQCeiJyw#%E4%B8%BB%E6%97%A8)

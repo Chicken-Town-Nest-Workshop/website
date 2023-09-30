@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://town.lychicken.com/blog</id>
     <title>Chicken Town 🐔 Blog</title>
-    <updated>2023-09-28T00:00:00.000Z</updated>
+    <updated>2023-10-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://town.lychicken.com/blog"/>
     <subtitle>Chicken Town 🐔 Blog</subtitle>
     <icon>https://town.lychicken.com/img/chicken.png</icon>
+    <entry>
+        <title type="html"><![CDATA[小雞鎮有兩篇新文章]]></title>
+        <id>https://town.lychicken.com/blog/exceptionFilterAndCliCMD</id>
+        <link href="https://town.lychicken.com/blog/exceptionFilterAndCliCMD"/>
+        <updated>2023-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[封面]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="封面" src="/assets/images/news-02a9748d3955d436e51ecbb52f48ec84.png" width="245" height="201" class="img_AMxF"></p><blockquote><p>小雞鎮今天有兩篇新文章哦</p></blockquote><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="nest-cli-常用指令">Nest CLI 常用指令<a href="#nest-cli-常用指令" class="hash-link" aria-label="Nest CLI 常用指令的直接連結" title="Nest CLI 常用指令的直接連結">​</a></h2><blockquote><p>記錄了常用的 CLI 指令</p></blockquote><p><a href="https://town.lychicken.com/docs/nest/nestCliCmd" target="_blank" rel="noopener noreferrer">前往觀看文章...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="exception-filter">Exception filter<a href="#exception-filter" class="hash-link" aria-label="Exception filter的直接連結" title="Exception filter的直接連結">​</a></h2><blockquote><p>Exception filter 用來攔截 throw 的例外訊息，</p><p>並將訊息做處理之後再回傳給客戶端</p></blockquote><p><a href="https://town.lychicken.com/docs/nest/exceptionFilter" target="_blank" rel="noopener noreferrer">前往觀看文章...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="小雞鎮祝大家有個美好的周末">小雞鎮祝大家有個美好的周末<a href="#小雞鎮祝大家有個美好的周末" class="hash-link" aria-label="小雞鎮祝大家有個美好的周末的直接連結" title="小雞鎮祝大家有個美好的周末的直接連結">​</a></h2>]]></content>
+        <author>
+            <name>鎮長-米開朗雞螺</name>
+            <uri>https://blog.lychicken.com/</uri>
+        </author>
+        <category label="小雞鎮新聞" term="小雞鎮新聞"/>
+        <category label="技術新聞" term="技術新聞"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[date time 踩雷小故事]]></title>
         <id>https://town.lychicken.com/blog/date time 踩雷小故事</id>

@@ -1,48 +1,51 @@
 // @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chicken Town 🐔',
-  tagline: '歡迎來到小雞鎮',
-  favicon: 'img/chicken.png',
+  title: "Chicken Town 🐔",
+  tagline: "歡迎來到小雞鎮",
+  favicon: "img/chicken.png",
 
   // Set the production url of your site here
-  url: 'https://town.lychicken.com',
+  url: "https://town.lychicken.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'LonelyYeezhiChicken', // Usually your GitHub org/user name.
-  projectName: 'Chicken-Town', // Usually your repo name.
+  organizationName: "LonelyYeezhiChicken", // Usually your GitHub org/user name.
+  projectName: "Chicken-Town", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh-Hant",
-    locales: ['zh-Hant'],
+    locales: ["zh-Hant"],
   },
-
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-          "https://github.com/Chicken-Town-Nest-Workshop/website/tree/main/",
+            "https://github.com/Chicken-Town-Nest-Workshop/website/tree/main/",
           showLastUpdateTime: true,
         },
         blog: {
@@ -50,10 +53,10 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-          "https://github.com/Chicken-Town-Nest-Workshop/website/tree/main/",
+            "https://github.com/Chicken-Town-Nest-Workshop/website/tree/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
           trackingID: "G-7ZPJH4XB67",
@@ -67,8 +70,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/chicken.png',
-      
+      image: "img/chicken.png",
+
       metadata: [
         { name: "viewport", content: "width=device-width, initial-scale=1.0" },
         { property: "og:title", content: "Chicken Town" },
@@ -100,43 +103,46 @@ const config = {
         },
       ],
       navbar: {
-        title: 'Chicken Town',
+        title: "Chicken Town",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/chicken-big.png',
+          alt: "My Site Logo",
+          src: "img/chicken-big.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '小鎮歷史',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "小鎮歷史",
           },
-          {to: '/blog', label: '新聞', position: 'left'},
+          { to: "/blog", label: "新聞", position: "left" },
           {
-            href: 'https://github.com/Chicken-Town-Nest-Workshop',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/Chicken-Town-Nest-Workshop",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         copyright: `Copyright © ${new Date().getFullYear()} chicken town, Inc. Built with Chicken.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      mermaid: {
+        theme: { light: "neutral" },
+      },
     }),
-    plugins: [
-      [
-        require.resolve("docusaurus-lunr-search"),
-        {
-          languages: ["zh"],
-        },
-      ],
+  plugins: [
+    [
+      require.resolve("docusaurus-lunr-search"),
+      {
+        languages: ["zh"],
+      },
     ],
+  ],
 };
 
 module.exports = config;

@@ -4,10 +4,20 @@
         <title>Chicken Town 🐔 Blog</title>
         <link>https://town.lychicken.com/blog</link>
         <description>Chicken Town 🐔 Blog</description>
-        <lastBuildDate>Sun, 01 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hant</language>
+        <item>
+            <title><![CDATA[小雞鎮文章更新了]]></title>
+            <link>https://town.lychicken.com/blog/nestJsLifecycle</link>
+            <guid>https://town.lychicken.com/blog/nestJsLifecycle</guid>
+            <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[封面]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="封面" src="/assets/images/news-325f6801c1abbd76c41c16ccf2dee2fa.png" width="247" height="201" class="img_AMxF"></p><blockquote><p>小雞鎮今天更新了 Nest 的生命週期圖哦!</p></blockquote><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="nest-js-生命週期">Nest js 生命週期<a href="#nest-js-生命週期" class="hash-link" aria-label="Nest js 生命週期的直接連結" title="Nest js 生命週期的直接連結">​</a></h2><h3 class="anchor anchorWithStickyNavbar_c6Kk" id="主程式生命週期">主程式生命週期<a href="#主程式生命週期" class="hash-link" aria-label="主程式生命週期的直接連結" title="主程式生命週期的直接連結">​</a></h3><h3 class="anchor anchorWithStickyNavbar_c6Kk" id="runtime-生命週期">Runtime 生命週期<a href="#runtime-生命週期" class="hash-link" aria-label="Runtime 生命週期的直接連結" title="Runtime 生命週期的直接連結">​</a></h3><p><a href="https://town.lychicken.com/docs/nest/about" target="_blank" rel="noopener noreferrer">前往觀看文章...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="小雞鎮祝大家有個美好的一周">小雞鎮祝大家有個美好的一周<a href="#小雞鎮祝大家有個美好的一周" class="hash-link" aria-label="小雞鎮祝大家有個美好的一周的直接連結" title="小雞鎮祝大家有個美好的一周的直接連結">​</a></h2>]]></content:encoded>
+            <category>小雞鎮新聞</category>
+            <category>技術新聞</category>
+        </item>
         <item>
             <title><![CDATA[小雞鎮有兩篇新文章]]></title>
             <link>https://town.lychicken.com/blog/exceptionFilterAndCliCMD</link>

@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://town.lychicken.com/blog</id>
     <title>Chicken Town 🐔 Blog</title>
-    <updated>2023-10-01T00:00:00.000Z</updated>
+    <updated>2023-10-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://town.lychicken.com/blog"/>
     <subtitle>Chicken Town 🐔 Blog</subtitle>
     <icon>https://town.lychicken.com/img/chicken.png</icon>
+    <entry>
+        <title type="html"><![CDATA[小雞鎮文章更新了]]></title>
+        <id>https://town.lychicken.com/blog/nestJsLifecycle</id>
+        <link href="https://town.lychicken.com/blog/nestJsLifecycle"/>
+        <updated>2023-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[封面]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="封面" src="/assets/images/news-325f6801c1abbd76c41c16ccf2dee2fa.png" width="247" height="201" class="img_AMxF"></p><blockquote><p>小雞鎮今天更新了 Nest 的生命週期圖哦!</p></blockquote><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="nest-js-生命週期">Nest js 生命週期<a href="#nest-js-生命週期" class="hash-link" aria-label="Nest js 生命週期的直接連結" title="Nest js 生命週期的直接連結">​</a></h2><h3 class="anchor anchorWithStickyNavbar_c6Kk" id="主程式生命週期">主程式生命週期<a href="#主程式生命週期" class="hash-link" aria-label="主程式生命週期的直接連結" title="主程式生命週期的直接連結">​</a></h3><h3 class="anchor anchorWithStickyNavbar_c6Kk" id="runtime-生命週期">Runtime 生命週期<a href="#runtime-生命週期" class="hash-link" aria-label="Runtime 生命週期的直接連結" title="Runtime 生命週期的直接連結">​</a></h3><p><a href="https://town.lychicken.com/docs/nest/about" target="_blank" rel="noopener noreferrer">前往觀看文章...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="小雞鎮祝大家有個美好的一周">小雞鎮祝大家有個美好的一周<a href="#小雞鎮祝大家有個美好的一周" class="hash-link" aria-label="小雞鎮祝大家有個美好的一周的直接連結" title="小雞鎮祝大家有個美好的一周的直接連結">​</a></h2>]]></content>
+        <author>
+            <name>鎮長-米開朗雞螺</name>
+            <uri>https://blog.lychicken.com/</uri>
+        </author>
+        <category label="小雞鎮新聞" term="小雞鎮新聞"/>
+        <category label="技術新聞" term="技術新聞"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[小雞鎮有兩篇新文章]]></title>
         <id>https://town.lychicken.com/blog/exceptionFilterAndCliCMD</id>

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 65
+sidebar_position: 5
 description: 使用 TypeORM
 key: [NestJS, Node, TypeScript, typeORM]
 tags: [NestJS, Node, TypeScript, typeORM]

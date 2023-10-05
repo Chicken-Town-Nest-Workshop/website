@@ -193,6 +193,8 @@ src
 export class InhabitantModule {}
 ```
 
+---
+
 ## REF
 
 [梁迪哥 教學](https://hackmd.io/@JgGTFI_BRjyUv6YuG1bmUQ/B1ZKISX_n/%2FFwXhSn6rTXG4BsAQCeiJyw#0-Nestjs-TypeORM-module-%E9%87%8D%E8%A6%81%E7%9A%84%E6%A6%82%E5%BF%B5)

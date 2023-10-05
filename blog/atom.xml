@@ -8,6 +8,20 @@
     <subtitle>Chicken Town 🐔 Blog</subtitle>
     <icon>https://town.lychicken.com/img/chicken.png</icon>
     <entry>
+        <title type="html"><![CDATA[來聽副鎮長的演唱會]]></title>
+        <id>https://town.lychicken.com/blog/nestJsWorkshopLifecycle</id>
+        <link href="https://town.lychicken.com/blog/nestJsWorkshopLifecycle"/>
+        <updated>2023-10-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[封面]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="封面" src="/assets/images/news-67ef775c0fa19341d8daa975f8bcf8bf.png" width="241" height="198" class="img_AMxF"></p><blockquote><p>就在今晚 10:00 快來聽副鎮長的演唱會</p></blockquote><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="簡報">簡報<a href="#簡報" class="hash-link" aria-label="簡報的直接連結" title="簡報的直接連結">​</a></h2><p><img loading="lazy" alt="ppt" src="/assets/images/ppt-33470d26d58af31b932bdaedaae25efc.png" width="1330" height="412" class="img_AMxF"></p><p><a href="https://hackmd.io/@JgGTFI_BRjyUv6YuG1bmUQ/B1M_-IHeT#/" target="_blank" rel="noopener noreferrer">前往觀看完整簡報...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="範例-github">範例 GitHub<a href="#範例-github" class="hash-link" aria-label="範例 GitHub的直接連結" title="範例 GitHub的直接連結">​</a></h2><blockquote><p>This is nestjs request sample for test request lifecycle</p></blockquote><p><a href="https://github.com/nodejs-typescript-classroom/nestjs-request-response" target="_blank" rel="noopener noreferrer">前往觀看完整程式碼...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="小雞鎮趕快來聽副鎮長的演唱會">小雞鎮趕快來聽副鎮長的演唱會<a href="#小雞鎮趕快來聽副鎮長的演唱會" class="hash-link" aria-label="小雞鎮趕快來聽副鎮長的演唱會的直接連結" title="小雞鎮趕快來聽副鎮長的演唱會的直接連結">​</a></h2>]]></content>
+        <author>
+            <name>副鎮長-梁迪哥</name>
+            <uri>https://github.com/yuanyu90221</uri>
+        </author>
+        <category label="小雞鎮新聞" term="小雞鎮新聞"/>
+        <category label="演唱會" term="演唱會"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[小雞鎮文章更新了]]></title>
         <id>https://town.lychicken.com/blog/nestJsCrudAndAutoLoad</id>
         <link href="https://town.lychicken.com/blog/nestJsCrudAndAutoLoad"/>

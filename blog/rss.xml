@@ -9,6 +9,16 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hant</language>
         <item>
+            <title><![CDATA[來聽副鎮長的演唱會]]></title>
+            <link>https://town.lychicken.com/blog/nestJsWorkshopLifecycle</link>
+            <guid>https://town.lychicken.com/blog/nestJsWorkshopLifecycle</guid>
+            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[封面]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="封面" src="/assets/images/news-67ef775c0fa19341d8daa975f8bcf8bf.png" width="241" height="198" class="img_AMxF"></p><blockquote><p>就在今晚 10:00 快來聽副鎮長的演唱會</p></blockquote><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="簡報">簡報<a href="#簡報" class="hash-link" aria-label="簡報的直接連結" title="簡報的直接連結">​</a></h2><p><img loading="lazy" alt="ppt" src="/assets/images/ppt-33470d26d58af31b932bdaedaae25efc.png" width="1330" height="412" class="img_AMxF"></p><p><a href="https://hackmd.io/@JgGTFI_BRjyUv6YuG1bmUQ/B1M_-IHeT#/" target="_blank" rel="noopener noreferrer">前往觀看完整簡報...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="範例-github">範例 GitHub<a href="#範例-github" class="hash-link" aria-label="範例 GitHub的直接連結" title="範例 GitHub的直接連結">​</a></h2><blockquote><p>This is nestjs request sample for test request lifecycle</p></blockquote><p><a href="https://github.com/nodejs-typescript-classroom/nestjs-request-response" target="_blank" rel="noopener noreferrer">前往觀看完整程式碼...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="小雞鎮趕快來聽副鎮長的演唱會">小雞鎮趕快來聽副鎮長的演唱會<a href="#小雞鎮趕快來聽副鎮長的演唱會" class="hash-link" aria-label="小雞鎮趕快來聽副鎮長的演唱會的直接連結" title="小雞鎮趕快來聽副鎮長的演唱會的直接連結">​</a></h2>]]></content:encoded>
+            <category>小雞鎮新聞</category>
+            <category>演唱會</category>
+        </item>
+        <item>
             <title><![CDATA[小雞鎮文章更新了]]></title>
             <link>https://town.lychicken.com/blog/nestJsCrudAndAutoLoad</link>
             <guid>https://town.lychicken.com/blog/nestJsCrudAndAutoLoad</guid>

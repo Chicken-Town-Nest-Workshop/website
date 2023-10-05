@@ -177,9 +177,9 @@ end
 
 nest-di --> nest-middleware
 nest-middleware --> nest-exception
-nest-exception --> nest-interceptor
-nest-interceptor --> nest-guard
-nest-guard --> nest-pipe
+nest-exception --> nest-guard
+nest-guard --> nest-interceptor
+nest-interceptor --> nest-pipe
 nest-pipe --> nest-controller
 nest-controller --> nest-context
 ```

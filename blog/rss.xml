@@ -4,10 +4,20 @@
         <title>Chicken Town 🐔 Blog</title>
         <link>https://town.lychicken.com/blog</link>
         <description>Chicken Town 🐔 Blog</description>
-        <lastBuildDate>Mon, 02 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hant</language>
+        <item>
+            <title><![CDATA[小雞鎮文章更新了]]></title>
+            <link>https://town.lychicken.com/blog/nestJsCrudAndAutoLoad</link>
+            <guid>https://town.lychicken.com/blog/nestJsCrudAndAutoLoad</guid>
+            <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[封面]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="封面" src="/assets/images/news-4fd77ae1a977e267577570dbf9f1e9cc.png" width="239" height="198" class="img_AMxF"></p><blockquote><p>小雞鎮今天更新了 TypeORM 的 CRUD 與 Entity Auto Load 的文章哦!</p></blockquote><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="entity-auto-load">Entity Auto Load<a href="#entity-auto-load" class="hash-link" aria-label="Entity Auto Load的直接連結" title="Entity Auto Load的直接連結">​</a></h2><ul><li>TypeORM 有兩種模式<ol><li>自動載入: TypeORM 會自動搜尋需要註冊的檔案</li><li>手動載入: 須由開發者決定應該要載入那些 Entity</li></ol></li></ul><p><a href="https://town.lychicken.com/docs/typeORM/entityAutoload" target="_blank" rel="noopener noreferrer">前往觀看文章...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="typeorm-的-crud">TypeORM 的 CRUD<a href="#typeorm-的-crud" class="hash-link" aria-label="TypeORM 的 CRUD的直接連結" title="TypeORM 的 CRUD的直接連結">​</a></h2><blockquote><p>在整個 TypeORM 最核心的觀念就是 CRUD</p><p>CRUD 則是一個縮寫，代表了以下四個基本操作：</p></blockquote><ol><li>Create (新增)：在資料庫中新增記錄或資料</li><li>Read (讀取)：從資料庫中讀取或搜尋記錄或資料</li><li>Update (更新)：更新現有記錄或資料的內容</li><li>Delete (刪除)：從資料庫中刪除現有的記錄或資料</li></ol><p><a href="https://town.lychicken.com/docs/typeORM/aboutCrud" target="_blank" rel="noopener noreferrer">前往觀看文章...</a></p><h2 class="anchor anchorWithStickyNavbar_c6Kk" id="小雞鎮呼籲大家颱風天沒事盡量別出門">小雞鎮呼籲大家颱風天沒事盡量別出門<a href="#小雞鎮呼籲大家颱風天沒事盡量別出門" class="hash-link" aria-label="小雞鎮呼籲大家颱風天沒事盡量別出門的直接連結" title="小雞鎮呼籲大家颱風天沒事盡量別出門的直接連結">​</a></h2>]]></content:encoded>
+            <category>小雞鎮新聞</category>
+            <category>技術新聞</category>
+        </item>
         <item>
             <title><![CDATA[小雞鎮文章更新了]]></title>
             <link>https://town.lychicken.com/blog/nestJsLifecycle</link>

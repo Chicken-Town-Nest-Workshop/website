@@ -1,4 +1,5 @@
 ---
+position: 2
 slug: nestJsCrudAndAutoLoad
 title: 小雞鎮文章更新了
 authors: [chicken]

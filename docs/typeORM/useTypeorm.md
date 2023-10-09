@@ -77,7 +77,7 @@ import * as Joi from 'joi';
           type: 'postgres',//連線資料庫的類型
           url: configService.getOrThrow('DB_URI', ''),
           synchronize: false,//否自動同步 entity 到資料庫 table
-          autoLoadEntity: true//是否自動載入 Entity 到 forRoot TypeORM
+          autoLoadEntities: true//是否自動載入 Entity 到 forRoot TypeORM
         };
       },
       inject: [ConfigService],
